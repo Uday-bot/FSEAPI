@@ -13,14 +13,14 @@ namespace CTS.HackFSE.UnitTest
 {
     public class UserControllerTest
     {
-
+        
         [Fact]
         public void  GetAllUser_OkTest()
         {
 
             var output = UserControllerMock.GetUsers();
 
-            //Get Mock Repository object
+            //Get Mock Repository object.
             var userRepositoryMock = new Mock<IUserInfoBO>();
 
 
