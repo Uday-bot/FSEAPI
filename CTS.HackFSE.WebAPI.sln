@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS.HackFSE.Service", "CTS.HackFSE.Service\CTS.HackFSE.Service.csproj", "{9AEA5345-98AF-48A0-B0C1-E4386AD21486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS.HackFSE.Business", "CTS.HackFSE.Business\CTS.HackFSE.Business.csproj", "{96B31CEA-AD70-4AB8-9374-CC41FE224222}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS.HackFSE.DataAccess", "CTS.HackFSE.DataAccess\CTS.HackFSE.DataAccess.csproj", "{2AEBA3A9-2E1E-4646-B31A-E5B2E1C7F303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS.HackFSE.UnitTest", "CTS.HackFSE.UnitTest\CTS.HackFSE.UnitTest.csproj", "{2F15DDBA-ED6E-4DA5-98CB-ED00BAA3560F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS.HackFSE.LoadTest", "CTS.HackFSE.LoadTest\CTS.HackFSE.LoadTest.csproj", "{25BD7A2C-D3E7-48B1-9E1E-F1908B38BFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbScript", "DbScript", "{26AC2D89-97DF-4C92-93BB-7539ACAEB06A}"
+	ProjectSection(SolutionItems) = preProject
+		DbScript\table script.sql = DbScript\table script.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEA5345-98AF-48A0-B0C1-E4386AD21486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEA5345-98AF-48A0-B0C1-E4386AD21486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEA5345-98AF-48A0-B0C1-E4386AD21486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEA5345-98AF-48A0-B0C1-E4386AD21486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B31CEA-AD70-4AB8-9374-CC41FE224222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B31CEA-AD70-4AB8-9374-CC41FE224222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B31CEA-AD70-4AB8-9374-CC41FE224222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B31CEA-AD70-4AB8-9374-CC41FE224222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEBA3A9-2E1E-4646-B31A-E5B2E1C7F303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEBA3A9-2E1E-4646-B31A-E5B2E1C7F303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEBA3A9-2E1E-4646-B31A-E5B2E1C7F303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEBA3A9-2E1E-4646-B31A-E5B2E1C7F303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F15DDBA-ED6E-4DA5-98CB-ED00BAA3560F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F15DDBA-ED6E-4DA5-98CB-ED00BAA3560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F15DDBA-ED6E-4DA5-98CB-ED00BAA3560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F15DDBA-ED6E-4DA5-98CB-ED00BAA3560F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BD7A2C-D3E7-48B1-9E1E-F1908B38BFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BD7A2C-D3E7-48B1-9E1E-F1908B38BFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BD7A2C-D3E7-48B1-9E1E-F1908B38BFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BD7A2C-D3E7-48B1-9E1E-F1908B38BFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A06ED5-7FF6-42F4-B22E-F38BD2BF8C99}
+	EndGlobalSection
+EndGlobal
