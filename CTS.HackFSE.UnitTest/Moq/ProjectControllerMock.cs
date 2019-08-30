@@ -12,7 +12,7 @@ namespace CTS.HackFSE.UnitTest.Moq
             ProjectDTO project = new ProjectDTO()
             {
                 EndDate = new DateTime(2019, 12, 12),
-                ManagerName = "Satheesh",
+                ManagerName = "Udhaya",
                 Priority = 10,
                 ProjectId = 1,
                 ProjectName = "ACES20",
