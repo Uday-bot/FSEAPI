@@ -13,9 +13,9 @@ namespace CTS.HackFSE.UnitTest.Moq
             {
                 EndDate = new DateTime(2019, 12, 12),
                 ManagerName = "Udhaya",
-                Priority = 10,
+                Priority = 1,
                 ProjectId = 1,
-                ProjectName = "ACES20",
+                ProjectName = "MAX",
                 StartDate = new DateTime(2019, 01, 01),
                 UserId = 10
             };
@@ -28,10 +28,10 @@ namespace CTS.HackFSE.UnitTest.Moq
             ProjectDTO project1 = new ProjectDTO()
             {
                 EndDate = new DateTime(2019, 12, 12),
-                ManagerName = "Satheesh",
-                Priority = 10,
-                ProjectId = 1,
-                ProjectName = "ACES20",
+                ManagerName = "Anand",
+                Priority = 2,
+                ProjectId = 2,
+                ProjectName = "AGS",
                 StartDate = new DateTime(2019, 01, 01),
                 UserId = 10
             };

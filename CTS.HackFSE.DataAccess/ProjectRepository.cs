@@ -48,6 +48,7 @@ namespace CTS.HackFSE.DataAccess
                 project.UserId = projectInfo.UserId;
             }
             dbContext.Projects.Add(project);
+            dbContext.Entry(project).State = EntityState.Modified;
             dbContext.SaveChanges();
 
 

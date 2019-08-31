@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace CTS.HackFSE.Service
 {
@@ -26,8 +27,17 @@ namespace CTS.HackFSE.Service
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "FSE API",
+                    Description = "FSE ASP.NET Core 2.0 Web API",
+                    TermsOfService = "None",
+                });
+             });
 
-            string connStr = Microsoft
+                    string connStr = Microsoft
                     .Extensions
                     .Configuration
                     .ConfigurationExtensions
@@ -76,6 +86,10 @@ namespace CTS.HackFSE.Service
                 });
             });
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FSE API V1");
+            });
         }
     }
 }
