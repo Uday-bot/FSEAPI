@@ -41,7 +41,7 @@ namespace CTS.HackFSE.Service.Controllers
         }
 
         [HttpPost]
-        [Route("UpdateTask/{Id}")]
+        [Route("UpdateTask")]
         public bool Put(int Id, [FromBody]TaskDTO taskInfo)
         {
             if (Id != taskInfo.Task_ID)
