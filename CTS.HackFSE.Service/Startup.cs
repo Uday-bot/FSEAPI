@@ -27,7 +27,8 @@ namespace CTS.HackFSE.Service
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSwaggerGen(c => {
+           
+                        services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
@@ -88,7 +89,7 @@ namespace CTS.HackFSE.Service
             app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(c => {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FSE API V1");
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "FSE API V1");
             });
         }
     }
