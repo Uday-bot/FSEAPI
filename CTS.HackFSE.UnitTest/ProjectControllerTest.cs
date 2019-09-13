@@ -38,7 +38,7 @@ namespace CTS.HackFSE.UnitTest
 
             Assert.NotNull(value);
             Assert.IsType<ProjectDTO>(value);
-            Assert.Equal("Satheesh", (value.ManagerName));
+            Assert.Equal("Udhaya", (value.ManagerName));
             Assert.Equal(1, (value.ProjectId));
 
 
