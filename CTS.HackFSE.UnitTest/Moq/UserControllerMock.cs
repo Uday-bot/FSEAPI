@@ -24,8 +24,8 @@ namespace CTS.HackFSE.UnitTest.Moq
             UserInfoDTO user2 = new UserInfoDTO()
             {
                 EmployeeID = 2,
-                FirstName = "Saravanan",
-                LastName = "Seetharaman",
+                FirstName = "Udhaya",
+                LastName = "Raja",
                 UserID = 2
             };
 

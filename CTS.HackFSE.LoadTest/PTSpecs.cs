@@ -56,7 +56,7 @@ namespace CTS.HackFSE.LoadTest
 
         public void GetUserByName_OkTest()
         {
-            string name = "Satheesh";
+            string name = "Udhaya";
             var output = UserControllerMock.GetUsersByName(name);
 
             //Get Mock Repository object

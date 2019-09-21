@@ -41,7 +41,7 @@ namespace CTS.HackFSE.UnitTest
             Assert.Equal(1, (value[0].EmployeeID));
             Assert.Equal("Satheesh", (value[0].FirstName));
             Assert.Equal(2, (value[1].EmployeeID));
-            Assert.Equal("Saravanan", (value[1].FirstName));
+            Assert.Equal("Udhaya", (value[1].FirstName));
 
         }
 
@@ -49,7 +49,7 @@ namespace CTS.HackFSE.UnitTest
         [Fact]
         public void GetUserByName_OkTest()
         {
-            string name = "Satheesh";
+            string name = "Udhaya";
             var output = UserControllerMock.GetUsersByName(name);
 
             //Get Mock Repository object
@@ -70,8 +70,8 @@ namespace CTS.HackFSE.UnitTest
 
             Assert.NotNull(value);
             Assert.IsType<List<UserInfoDTO>>(value);
-            Assert.Equal(1, (value[0].EmployeeID));
-            Assert.Equal("Satheesh", (value[0].FirstName));
+            Assert.Equal(2, (value[0].EmployeeID));
+            Assert.Equal("Udhaya", (value[0].FirstName));
            
 
         }
